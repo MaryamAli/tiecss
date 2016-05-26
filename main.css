@@ -1,3 +1,12 @@
 .tieBar {
   display: inline;
+  max-width: 50px;
+  background-color: #F4F4F4;
+  
+
+}
+
+.tieBar img[src*="tieBar"] {
+  
+
 }
