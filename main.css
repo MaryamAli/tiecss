@@ -1,4 +1,8 @@
-.tieBar {
+body {
+  background: #F4F4F4;
+}
+ 
+/*.tieBar {
   display: inline;
   max-width: 50px;
   background-color: #F4F4F4;
@@ -7,6 +11,42 @@
 }
 
 .tieBar img[src*="tieBar"] {
-  
+    
 
+  }*/
+
+/*.black@1.5x, .blue@1.5x, .collegiate@1.5x, .cotton@1.5x, .favorites@1.5x, .graphic@1.5x, .plaid@1.5x, .silk@1.5x, .striped@1.5x{
+  background: url("./images/sprites/tieBar/tieBarAll.png") no-repeat;
+}*/
+
+ul.tieBarAll {
+  list-style-type: none;
+}
+
+ul.menu li {
+  /*padding: 5px;*/
+}
+
+ul.tieBarAll li {
+  height: 233px;
+  width: 113px;
+  line-height: 233px;
+  display: inline-block;
+  background: url("./images/sprites/tieBar/tieBarAll.png") no-repeat;
+}
+
+ul.tieBarAll li.black {
+  background-position: 0,0;
+}
+
+ul.tieBarAll li.blue {
+  background-position: -142px, 0;
+}
+
+ul.tieBarAll li.collegiate {
+  background-position: -285px, 0;
+}ul.tieBarAll li.cotton {
+  background-position: -426px, 0;
+}ul.tieBarAll li.favorites {
+  background-position: -586px, 0;
 }
