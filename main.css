@@ -21,10 +21,7 @@ body {
 
 ul.tieBarAll {
   list-style-type: none;
-}
-
-ul.menu li {
-  /*padding: 5px;*/
+  transition: 1s ease-in-out;
 }
 
 ul.tieBarAll li {
@@ -32,11 +29,16 @@ ul.tieBarAll li {
   width: 113px;
   line-height: 233px;
   display: inline-block;
+
   background: url("./images/sprites/tieBar/tieBarAll.png") no-repeat;
 }
 
+ul.tieBarAll li:hover{
+  transform: scale(1.1);
+}
+
 ul.tieBarAll li.black {
-  background-position: 0,0;
+  background-position: 0, 0;
 }
 
 ul.tieBarAll li.blue {
@@ -45,8 +47,22 @@ ul.tieBarAll li.blue {
 
 ul.tieBarAll li.collegiate {
   background-position: -285px, 0;
-}ul.tieBarAll li.cotton {
+}
+ul.tieBarAll li.cotton {
   background-position: -426px, 0;
-}ul.tieBarAll li.favorites {
-  background-position: -586px, 0;
+}
+ul.tieBarAll li.favorites {
+  background-position: -568px, 0;
+}
+ul.tieBarAll li.graphic {
+  background-position: -710px, 0;
+}
+ul.tieBarAll li.plaid {
+  background-position: -852px, 0;
+}
+ul.tieBarAll li.silk {
+  background-position: -994px, 0;
+}
+ul.tieBarAll li.striped {
+  background-position: -1136px, 0;
 }
