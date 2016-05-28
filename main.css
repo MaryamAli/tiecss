@@ -2,26 +2,62 @@ body {
   background: #F4F4F4;
 }
  
-/*.tieBar {
-  display: inline;
-  max-width: 50px;
-  background-color: #F4F4F4;
-  
+.header {
+  background: #FA6938;
+  height: 8%;
+  width: 100%;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.shipping {
+  float: left;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 0 8px;
+  background-color: #C8542D;
+  text-decoration: none;
+}
+
+.header:hover{
+  background: #46B5FF;
+}
+
+.navBar{
+  background: #FFFFFF;
+  height: 22%;
+  width: 100%;
+  display: inline-block;
+}
+
+.navBar img.logo {  
+  height: 95px;
+  width: 120px;
+  margin: auto 0 0 30px;
 
 }
 
-.tieBar img[src*="tieBar"] {
-    
+.scallopBorder {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  margin-bottom: 0;
+  background: transparent url("./images/raw/perforated-bottom.png") repeat;
+}
 
-  }*/
-
-/*.black@1.5x, .blue@1.5x, .collegiate@1.5x, .cotton@1.5x, .favorites@1.5x, .graphic@1.5x, .plaid@1.5x, .silk@1.5x, .striped@1.5x{
-  background: url("./images/sprites/tieBar/tieBarAll.png") no-repeat;
-}*/
-
+.tieBarAll {
+  height: 45%;
+  width: 90%;
+  margin-top: 0;
+}
 ul.tieBarAll {
   list-style-type: none;
-  transition: 1s ease-in-out;
+/*  transition: 1s ease-in-out;*/
 }
 
 ul.tieBarAll li {
@@ -29,12 +65,12 @@ ul.tieBarAll li {
   width: 113px;
   line-height: 233px;
   display: inline-block;
-
   background: url("./images/sprites/tieBar/tieBarAll.png") no-repeat;
 }
 
 ul.tieBarAll li:hover{
-  transform: scale(1.1);
+  transistion: 1s ease-in-out;
+  transform: translate(0, -15px);
 }
 
 ul.tieBarAll li.black {
@@ -66,3 +102,18 @@ ul.tieBarAll li.silk {
 ul.tieBarAll li.striped {
   background-position: -1136px, 0;
 }
+
+.declarationBar {
+  font-family: tahoma, sans-serif;
+  margin: 8% 0 ;
+  width: 100%;
+  height: 50%;
+
+}
+
+span.dressing {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 60px;
+}
+
