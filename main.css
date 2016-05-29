@@ -2,31 +2,35 @@ body {
   background: #F4F4F4;
 }
  
-.header {
+.header a.offers2{
   background: #FA6938;
   height: 8%;
   width: 100%;
   padding: 0;
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+.header a.offers2:hover{
+  background: #46B5FF;
 }
 
-.container {
+/*.container {
   width: 100%;
   display: inline-block;
   color: #FFFFFF;
   text-decoration: none;
-}
-.shipping {
+}*/
+.free {
   float: left;
   font-size: 12px;
   margin-right: 15px;
   padding: 0 8px;
-  background-color: #C8542D;
   text-decoration: none;
+  border: 1px #C8542D;
 }
 
-.header:hover{
-  background: #46B5FF;
-}
 
 .navBar{
   background: #FFFFFF;
@@ -69,8 +73,10 @@ ul.tieBarAll li {
 }
 
 ul.tieBarAll li:hover{
-  transistion: 1s ease-in-out;
+  transistion: 3s;
   transform: translate(0, -15px);
+  position: relative;
+  z-index: -1;
 }
 
 ul.tieBarAll li.black {
@@ -105,15 +111,48 @@ ul.tieBarAll li.striped {
 
 .declarationBar {
   font-family: tahoma, sans-serif;
-  margin: 8% 0 ;
+  margin:  0 ;
   width: 100%;
-  height: 50%;
+  height: 15%;
 
 }
 
 span.dressing {
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 40px;
   font-size: 60px;
 }
+
+.moreProductsBar {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bowTies, .pocketSquares, .tieBars {
+
+  display: inline-block;
+  width: 25%; 
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutBar {
+  text-align: center;
+  font-family: tahoma, sans-serif;
+  font-size: 36px;
+  font-weight: 1.1;
+  font-style: italic;
+}
+
+    a.viewStory {
+      margin-top: 40px;
+      text-decoration: none;
+      font-style: normal;
+      font-size: 14px;
+      color: #33A1FF;
+    }
 
