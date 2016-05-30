@@ -111,9 +111,10 @@ ul.tieBarAll li.striped {
 
 .declarationBar {
   font-family: tahoma, sans-serif;
-  margin:  0 ;
+  margin-top: auto ;
   width: 100%;
   height: 15%;
+  background: white;
 
 }
 
@@ -129,6 +130,7 @@ span.dressing {
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
+  background: white;
 }
 
 .bowTies, .pocketSquares, .tieBars {
@@ -146,6 +148,7 @@ span.dressing {
   font-size: 36px;
   font-weight: 1.1;
   font-style: italic;
+  background: white;
 }
 
     a.viewStory {
@@ -156,3 +159,34 @@ span.dressing {
       color: #33A1FF;
     }
 
+.hatchBorder {
+  width: 100%;
+  height: 12px;
+  position: absolute;
+  /*margin-bottom: 0;*/
+  background: transparent url("./images/raw/hatch-light.png") repeat;
+}
+
+.moreInfoBar {
+  position: relative;
+  height: 30%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid blue;
+}
+
+.weeklyPick, .loopUsIn, .theQuarterly, .styleGuide {
+
+  display: inline-block;
+  width: 15%; 
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  height: 8%;
+  width: 100%;
+  border: 1px solid black;
+}
