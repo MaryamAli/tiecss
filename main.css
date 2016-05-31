@@ -32,32 +32,46 @@ body {
 }
 
 
-.navBar{
-  background: #FFFFFF;
-  height: 22%;
+.navSubBar {
+  height: 24%;
   width: 100%;
-  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF;
+
+}
+
+.navBar ul.navSubBar li{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: inline;
+  font-family: tahoma, sans-serif;
+  line-height: 1.9;
+  /*font-weight: 600;*/
+  font-size: 17px;
+  list-style-type: none;
+  margin: 3%;
+
 }
 
 .navBar img.logo {  
   height: 95px;
   width: 120px;
-  margin: auto 0 0 30px;
-
 }
 
 .scallopBorder {
   width: 100%;
   height: 10px;
   position: absolute;
-  margin-bottom: 0;
   background: transparent url("./images/raw/perforated-bottom.png") repeat;
 }
 
-.tieBarAll {
+
+ul.tieBarAll {
   height: 45%;
-  width: 90%;
+  width: 100%;
   margin-top: 0;
+  
 }
 ul.tieBarAll {
   list-style-type: none;
@@ -114,7 +128,6 @@ ul.tieBarAll li.striped {
   margin-top: auto ;
   width: 100%;
   height: 15%;
-  background: white;
 
 }
 
