@@ -203,3 +203,39 @@ span.dressing {
   width: 100%;
   border: 1px solid black;
 }
+    /*.footer .shop ul.shopUl, .about ul.aboutUl, .style ul.styleUl, .help ul.helpUl {
+      width: 100%;
+      list-style-type: none;
+      display: inline;
+      font-family: tahoma, sans-serif;
+      padding: 0;
+      margin: 0;
+
+    }
+
+    .footer ul{
+      display: inline;
+    }*/
+  .footer ul {
+    list-style: none;
+  }
+    .footer ul li{
+      float: left;
+      padding: 0;
+
+    }
+      .footer ul li:nth-child(4n){
+        background-color: green;
+      }
+      .footer ul li:nth-child(4n+1){
+        clear: all;
+        background-color: yellow;
+      }
+      .footer ul li:nth-child(4n+2){
+        clear: all;
+        background-color: orange;
+      }
+      .footer ul li:nth-child(4n+3){
+        clear: all;
+        background-color: red;
+      }
