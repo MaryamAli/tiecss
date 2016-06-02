@@ -217,25 +217,41 @@ span.dressing {
       display: inline;
     }*/
   .footer ul {
-    list-style: none;
+    list-style: none; 
   }
     .footer ul li{
+      width: 100px;
       float: left;
-      padding: 0;
+      padding-left: 3%;
+      border-bottom: 1px solid #000;
+      border-right: 1px solid #000;
 
+/*REMOVE COLORS*/
     }
-      .footer ul li:nth-child(4n){
+      .footer ul li:nth-child(4n+4){
         background-color: green;
       }
-      .footer ul li:nth-child(4n+1){
-        clear: all;
+      .footer ul li:nth-child(4n+3){
         background-color: yellow;
       }
       .footer ul li:nth-child(4n+2){
-        clear: all;
         background-color: orange;
       }
-      .footer ul li:nth-child(4n+3){
-        clear: all;
+      .footer ul li:nth-child(4n+1){
+        clear: both;
         background-color: red;
       }
+      .footer ul li:nth-child(-n+4){
+        margin-top: 2%;
+      }
+      .footer ul li:nth-child(-4n+1), .footer ul li:nth-child(-4n+2), .footer ul li:nth-child(-4n+3), .footer ul li:nth-child(-4n+4){
+        color: black;
+        padding-bottom: 1%
+      }
+
+ul.shopUl a.footerLinks{
+  text-decoration: none;
+  color: #909093;
+  font-family: tahoma, sans-serif;
+  font-size: 12px;
+}
